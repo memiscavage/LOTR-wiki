@@ -2,4 +2,4 @@
 
 // api keys
 // lotr key
-var lotrAPI = ql0OUYOIpoNhyZBMrR2O
+var lotrAPI = "ql0OUYOIpoNhyZBMrR2O";
