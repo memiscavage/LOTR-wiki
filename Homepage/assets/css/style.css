@@ -7,7 +7,18 @@ img.bg {
     top: 0;
     left: 0;
     pointer-events: none;
+    z-index: -1;
 }
+
+img.bgalt {
+    width: 75%;
+    height: 50%;
+    left: 12%;
+    position: fixed;
+    top: 20%;
+    z-index: 1;
+}
+
 img {
     vertical-align: middle;
     border: 0;
