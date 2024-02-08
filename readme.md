@@ -10,7 +10,7 @@ n/a
 Users will be able to use this site to search and learn more about their favorite Lord of the Rings characters. Users will use the search bar along with our table of contents to specify searches and information. As they search, our webpage will pull fromt the APIs that we have selected to display that information.
 
 ## Credits
-n/a
+
 
 ## License
 Please refer to the LICENSE in this repository. 
