@@ -27,8 +27,13 @@ $.ajax({
     },
     success: function (response) {
         console.log(response);
+        // ive been staring at this for 40 minutes and idk
+        // var pages = xhr.responseText;
+        // var jsonResponse = JSON.parse(pages);
+        // console.log(jsonResponse["pages"]);
     }
 })
+
 
 
 // Google API pull:
