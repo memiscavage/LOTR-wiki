@@ -36,7 +36,7 @@ xhr.send();
 
 // copy pasted from stack overflow lol: https://stackoverflow.com/questions/51506579/sending-authorization-token-bearer-through-javascript
 $.ajax({
-    url: requestU,
+    url: requestUrl,
     type: 'GET',
     beforeSend: function (xhr) {
         xhr.setRequestHeader("Authorization", "Bearer " + lotrAPI);
