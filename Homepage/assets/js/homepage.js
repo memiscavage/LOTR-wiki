@@ -9,6 +9,7 @@ var lotrAPI = "ql0OUYOIpoNhyZBMrR2O";
 // copy-pasted from 06-Server-Side-APIs > 01-Activities > 05-Ins_Different_APIs > assets > js > script.js
 var requestUrl = 'https://the-one-api.dev/v2/character';
 //Browser XMLHttpRequest, built in the browser and require more code.
+var lotrInfo = "";
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
     if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -27,10 +28,10 @@ $.ajax({
     },
     success: function (response) {
         console.log(response);
-        // ive been staring at this for 40 minutes and idk
-        // var pages = xhr.responseText;
-        // var jsonResponse = JSON.parse(pages);
-        // console.log(jsonResponse["pages"]);
+        lotrInfo = response;
+
+        // how to grab specific info:
+        console.log(lotrInfo["docs"]["3"]["name"]);
     }
 })
 
