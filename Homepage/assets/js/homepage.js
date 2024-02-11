@@ -36,14 +36,9 @@ $.ajax({
 })
 
 
+// test that u can use it after the pull
 
-// Google API pull:
-
-
-
-
-
-
+console.log(lotrInfo["docs"]["4"]["name"]);
 //TO DO: Declare variables for document.querySelector to dynamically change text through HTML when 
 //displaying info on content page
 //TO DO: add other variables here
