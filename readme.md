@@ -4,10 +4,10 @@ A custom, independent fanwiki for the Lord of the Rings.
 ## Usage
 Access a massive archive of information about Tolkien's Lord of the Rings franchize through this website!
 ## Website Preview
-- Website Link: 
+- Website Link: website link goes here
 - Repository Link: https://github.com/memiscavage/LOTR-wiki
 
-![Image of the deployed website.]()
+![Image of the deployed website.](image path goes here)
 ## Sources
 ### Tools
 - [The One API](https://the-one-api.dev/)
