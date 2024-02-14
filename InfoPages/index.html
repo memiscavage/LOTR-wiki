@@ -13,28 +13,31 @@
 
 <body>
 
+    
 
-
+    <flex>
     <!-- Img of the ring. -->
     <div>
-        <img src="./assets/images/edited_hobbit_day_door_360.png" alt="The Ring to rule them all.">
+        <img src="./assets/images/edited_hobbit_day_door_360.png" alt="The Ring to rule them all." class="iconimg">
     </div>
-
-
-    <section>
-        <h2>LOTR Wiki</h2>
-    </section>
     
+    <section style="font-size: 20px;">
+        <h1>LOTR Wiki</h1>
+    </section>
+
     <!-- Google Search. -->
     <script async src="https://cse.google.com/cse.js?cx=f63ee7dc2b0124acc">
     </script>
     <div class="gsc-control-sce-en"> 
         <div class="gcse-search"></div>
     </div>
+    </flex>
 
     <!-- Table of Contents. -->
     <section class="tableContents">
-        <div id="tabConData"> </div>
+        <div id="tabConData"> 
+            <h2>Table Of Contents</h2>
+        </div>
 
     </section>
 
@@ -42,12 +45,12 @@
     <section class="content">
         <p id="contentData"></p>
 
-        <div class="contentCard1">
+        <div class="contentCard1" style="font-size: 30px;">
             <div id="charImage"></div>
             <h3 id="charName"></h3>
         </div>
 
-        <div class="contactcard2">
+        <div class="contactcard2" style="grid-template: repeat(4, 1fr);grid-auto-flow: row dense;">
             <p>Name:</p><div id="name"> </div>
             <p>Date of birth:</p><div id="dob"> </div> 
             <p>Date of death:</p><div id="doDeath"> </div>
