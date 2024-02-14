@@ -89,22 +89,79 @@ img {
 
 }
 
-#gsce-search {
+.gsc-control-cse{
 
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 60%;
-    left: 50%;
-    max-width: 65rem;
+    top: 5%;
+    left: 81%;
+    max-width: 600px;
     width: 55%;
     display: grid;
     grid-template-columns: 1fr 2rem;
     align-items: center;
     background-color: rgb(56, 56, 56);
-    outline: 1;
+    outline: 0;
     outline-color: #fff;
+    border: none !important;
     border-color: #fff;
     padding: 1rem 3rem;
     border-radius: 6rem;
+    background-color: transparent !important; 
+}
+
+.gsc-control-wrapper-cse {
+
+    width: 500px !important;
+    background-color:transparent
+
+}
+
+.gsc-search-box .gsc-search-box-tools{
+
+    background-color: black !important;
+    font-size: 13px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 4px;
+    margin-left: 0;
+    width: 100%;
+
+}
+
+.gsc-input-box {
+    border: none !important;
+    background: rgba(40, 40, 40) !important;
+}
+
+.gsib_a {
+
+    background: rgba(40, 40, 40);
+
+}
+
+#gsc-i-id1.gsc-input {
+
+    background: rgba(40, 40, 40);
+    color: goldenrod;
+    
+}
+
+.gsst_a .gscb_a {
+
+    color: goldenrod;
+    
+}
+
+.gsc-search-button-v2 svg {
+
+    fill: goldenrod !important;
+    max-width: 800px !important; 
+
+}
+
+.gsc-search-button {
+
+    max-width: 800px !important;
 
 }
