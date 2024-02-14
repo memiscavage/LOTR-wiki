@@ -35,8 +35,6 @@ img {
     border: 0;
 }
 
-
-
 .title {
     display: block;
     position: fixed;
@@ -88,5 +86,25 @@ img {
     .search-btn { 
         display: none;
     }
+
+}
+
+.gsce-search {
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    max-width: 65rem;
+    width: 55%;
+    display: grid;
+    grid-template-columns: 1fr 2rem;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    outline: 1;
+    outline-color: #fff;
+    border-color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 6rem;
 
 }
