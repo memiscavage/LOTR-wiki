@@ -30,7 +30,7 @@ $.ajax({
         xhr.setRequestHeader("Authorization", "Bearer " + lotrAPI);
     },
     success: function (response) {
-        console.log(response);
+        //console.log(response);
         lotrInfo = response;
     
         // how to grab specific info:
