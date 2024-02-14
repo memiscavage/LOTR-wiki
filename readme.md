@@ -17,4 +17,4 @@ Access a massive archive of information about Tolkien's Lord of the Rings franch
 - [W3](https://www.w3schools.com/)
 - https://stackoverflow.com/questions/51506579/sending-authorization-token-bearer-through-javascript
 ### Asset Credits
-- image links go here
+- [The One Ring image](https://en.wikipedia.org/wiki/One_Ring#/media/File:One_Ring_Blender_Render.png)
