@@ -39,25 +39,25 @@ $.ajax({
         function getCharacterInfo() {
         const charName = document.getElementById("charName");
         charName.innerText = (lotrInfo["docs"]["40"]["name"]);
+        const name = document.getElementById("name");
+        name.innerText = (lotrInfo["docs"]["40"]["name"]);
         const dob = document.getElementById("dob");
         dob.innerText = (lotrInfo["docs"]["40"]["birth"]);
         const doDeath = document.getElementById("doDeath");
         doDeath.innerText = (lotrInfo["docs"]["40"]["death"]);
-        const gender = document.getElementById("gender");
-        gender.innerText = (lotrInfo["docs"]["40"]["gender"]);
-        const hair = document.getElementById("hair");
-        hair.innerText = (lotrInfo["docs"]["40"]["hair"]);
-        const height = document.getElementById("height");
-        height.innerText = (lotrInfo["docs"]["40"]["height"]);
-        const name = document.getElementById("name");
-        name.innerText = (lotrInfo["docs"]["40"]["name"]);
         const race = document.getElementById("race");
         race.innerText = (lotrInfo["docs"]["40"]["race"]);
         const realm = document.getElementById("realm");
         realm.innerText = (lotrInfo["docs"]["40"]["realm"]);
         const spouse = document.getElementById("spouse");
         spouse.innerText = (lotrInfo["docs"]["40"]["spouse"]);
-        }
+        const height = document.getElementById("height");
+        height.innerText = (lotrInfo["docs"]["40"]["height"]);
+        const hair = document.getElementById("hair");
+        hair.innerText = (lotrInfo["docs"]["40"]["hair"]);
+        const gender = document.getElementById("gender");
+        gender.innerText = (lotrInfo["docs"]["40"]["gender"]);
+    }
         getCharacterInfo();
     }
 })
