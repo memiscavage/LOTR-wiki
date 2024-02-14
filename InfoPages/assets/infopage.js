@@ -32,16 +32,15 @@ $.ajax({
     success: function (response) {
         console.log(response);
         lotrInfo = response;
-
+    
         // how to grab specific info:
         console.log(lotrInfo["docs"]["40"]["name"]);
+        function getCharacterInfo() {
+        const charName = document.getElementById("charName");
+        charName.innerText = (lotrInfo["docs"]["40"]["name"]);
+        const dob = document.getElementById("dob");
+        dob.innerText = (lotrInfo["docs"]["40"]["birth"])
+        }
+        getCharacterInfo();
     }
-
 })
-
-function getCharacterInfo(lotrInfo) {
-    const name = document.getElementById("charName")
-    name.innerText = lotrInfo["docs"]["40"]["name"]
-    console.log(name)
-    return name;
-}
