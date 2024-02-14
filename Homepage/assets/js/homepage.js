@@ -27,21 +27,11 @@ $.ajax({
         xhr.setRequestHeader("Authorization", "Bearer " + lotrAPI);
     },
     success: function (response) {
-        console.log(response);
+        //console.log(response);
         lotrInfo = response;
 
         // how to grab specific info:
-        console.log(lotrInfo["docs"]["3"]["name"]);
+        //console.log(lotrInfo["docs"]["3"]["name"]);
     }
 })
 
-
-// test that u can use it after the pull
-
-console.log(lotrInfo["docs"]["4"]["name"]);
-//TO DO: Declare variables for document.querySelector to dynamically change text through HTML when 
-//displaying info on content page
-//TO DO: add other variables here
-
-//TO DO: Create click event for search button on homepage
-//TO DO: Create click event for hamburger on mobile homepage
