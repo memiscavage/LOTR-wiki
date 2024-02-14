@@ -89,7 +89,7 @@ img {
 
 }
 
-.gsce-search {
+#gsce-search {
 
     position: absolute;
     transform: translate(-50%, -50%);
