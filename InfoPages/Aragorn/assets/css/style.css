@@ -65,13 +65,13 @@ body {
 #gsc-i-id1.gsc-input {
 
     background: rgba(40, 40, 40);
-    color: goldenrod;
+    color: goldenrod !important;
     
 }
 
 .gsst_a .gscb_a {
 
-    color: goldenrod;
+    color: goldenrod !important;
     
 }
 

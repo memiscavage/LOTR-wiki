@@ -2,17 +2,21 @@ body {
     background-color: black;
     font-size: 14px;
     color: goldenrod;
-    font-family: "EB Garamond", Arial, Helvetica, sans-serif
+    font-family: "EB Garamond", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px;
+    margin-top: 50px;
 }
 
 img.bg {
-    width: 15%;
-    height: 25%;
-    left: 43%;
-    position: fixed;
-    top: 18.5%;
+    width:20%;
+    height:auto;
+    left: 40%;
+    position: relative;
     z-index: 1;
-    align-items: center;
 }
 
 img.bgalt {
@@ -36,67 +40,19 @@ img {
 }
 
 .title {
-    display: block;
-    position: fixed;
-    top: 40.5%;
-    left: 37%;
-    font-size: large;
-}
-
-#form {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 60%;
-    left: 50%;
-    max-width: 65rem;
-    width: 55%;
-    display: grid;
-    grid-template-columns: 1fr 2rem;
-    align-items: center;
-    background-color: rgb(56, 56, 56);
-    outline: 1;
-    outline-color: #fff;
-    border-color: #fff;
-    padding: 1rem 3rem;
-    border-radius: 6rem;
-}
-
-#form input{
-    font-size: 2rem;
-    padding: 1rem;
-    outline: 0;
-    border: 0;
-    background-color: transparent;
-    color: goldenrod;
-}
-
-.search-btn {
-    background-color: transparent;
-    border: 0;
-    padding: 0;
-    height: 3rem;
-    width: 3rem;
-    display: grid;
-    place-items: center;
-    color: #fff;
-}
-
-@media screen and (max-width: 870px) {
-    
-    .search-btn { 
-        display: none;
-    }
-
+    position: relative;
+    left: 38%;
+    font-size: 35px;
 }
 
 .gsc-control-cse{
 
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 5%;
-    left: 81%;
-    max-width: 600px;
-    width: 55%;
+    top: 65%;
+    left: 52%;
+    max-width: 1000px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 2rem;
     align-items: center;
@@ -112,7 +68,7 @@ img {
 
 .gsc-control-wrapper-cse {
 
-    width: 500px !important;
+    width: 700px !important;
     background-color:transparent
 
 }
@@ -143,13 +99,13 @@ img {
 #gsc-i-id1.gsc-input {
 
     background: rgba(40, 40, 40);
-    color: goldenrod;
+    color: goldenrod !important;
     
 }
 
 .gsst_a .gscb_a {
 
-    color: goldenrod;
+    color: goldenrod !important;
     
 }
 
