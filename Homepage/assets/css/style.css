@@ -12,21 +12,10 @@ body {
 }
 
 img.bg {
-    width:20%;
-    height:auto;
-    left: 40%;
-    position: relative;
-    z-index: 1;
+    margin-left: 13%;
+    justify-content: center;
 }
 
-img.bgalt {
-    width: 75%;
-    height: 50%;
-    left: 12%;
-    position: fixed;
-    top: 20%;
-    z-index: 1;
-}
 
 img.icon {
     position:sticky;
@@ -41,7 +30,7 @@ img {
 
 .title {
     position: relative;
-    left: 38%;
+    left: 25%;
     font-size: 35px;
 }
 
@@ -69,7 +58,8 @@ img {
 .gsc-control-wrapper-cse {
 
     width: 700px !important;
-    background-color:transparent
+    background-color:transparent;
+    
 
 }
 
@@ -121,3 +111,16 @@ img {
     max-width: 800px !important;
 
 }
+
+.heading {
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 800px;
+    height: 600px;
+}
+
+
