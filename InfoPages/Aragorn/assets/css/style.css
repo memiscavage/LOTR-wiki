@@ -7,19 +7,19 @@ body {
 .iconimg {
 
     width: 10%;
-    height: 10%;
+    height: auto;
 
 }
 
 .gsc-control-cse{
 
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
     top: 5%;
     left: 81%;
     max-width: 600px;
     width: 55%;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 2rem;
     align-items: center;
     background-color: rgb(56, 56, 56);
@@ -104,4 +104,54 @@ body {
     background: max-content;
     width: 18%; 
     
+}
+
+.gsc-webResult.gsc-result.gsc-promotion {
+
+    border-color: rgba(40, 40, 40) !important;
+    background-color: rgba(40, 40, 40) !important; 
+
+}
+
+.gs-promotion a.gs-title:visited, .gs-promotion a.gs-title:visited *, .gs-promotion .gs-snippet a:visited {
+
+    color: goldenrod !important;
+
+}
+
+.gs-promotion .gs-visibleUrl, .gs-webResult .gs-visibleUrl {
+
+    color: blue !important;
+
+}
+
+.gs-no-results-result .gs-snippet, .gs-error-result .gs-snippet {
+
+    border: rgba(40, 40, 40) !important;
+
+}
+
+.gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
+
+    background-color: rgba(40, 40, 40) !important;
+    border-color: rgba(40, 40, 40) !important;
+}
+
+.gcsc-find-more-on-google-root {
+
+    background: rgba(40, 40, 40) !important;
+
+}
+
+.gcsc-more-maybe-branding-box {
+
+    border-color: goldenrod !important;
+
+}
+
+.gsc-results {
+
+    width: auto;
+    background-color: goldenrod !important;
+
 }
