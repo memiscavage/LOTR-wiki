@@ -6,7 +6,7 @@ Access a massive archive of information about Tolkien's Lord of the Rings franch
 ## Website Preview
 - Website Link: https://memiscavage.github.io/LOTR-wiki/#gsc.tab=0
 - Repository Link: https://github.com/memiscavage/LOTR-wiki
-- [Image of the deployed website.](./Homepage/assets/homepage_screenshot.png)
+- [Image of the deployed website.](./Homepage/assets/images/memiscavage.github.io_LOTR-wiki_screenshot.png)
 ## Sources
 ### Tools
 - [The One API](https://the-one-api.dev/)
